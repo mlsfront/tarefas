@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+* {font-family: 'Fira Mono', monospace;}
+:root{
+    --color-white: #fff;
+    --color-blue: #000078;
+    --color-red: #f00;
+    --color-dark1: #1d1d1d;
+    --color-dark2: #222222;
+    --color-dark3: #353535;
+}
+/*navbar*/
+.nav-link {
+    text-transform: uppercase;
+
+}
+/*fimNavbar*/
+
+/*helper*/
+.active {
+    color: var(--color-red);
+}
+.text-titulo {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.identificacao {
+    color: #000078;
+    padding-right: 5px;
+}
+.acoes {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+/*fimHelper*/
+
+/*button*/
+.button{
+    text-decoration: none;
+    color: var(--color-white);
+    background-color: var(--color-blue);
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+a, .btn-edit{
+    color: var(--color-dark3);
+}
+.btn-back{
+    background-color: var(--color-dark3);
+}
+a, .btn-delete{
+	padding: 0 5px;
+    font-size: 15px;
+    color: var(--color-red);
+}
+i.btn-search{
+    width: 104%;
+}
+/*FimButton*/
+
+/*input*/
+input {padding: 3px; width: 100%;}
+input[type=checkbox]{box-sizing: border-box; padding: 0px; width:10%;  }
+/*input.check-box > name{display: flex; flex-direction: column;}*/
+label {float: left !important;}
+select {padding: 3px; width: 100%;}
+textarea {width: 100%; height: 100px; margin-bottom: 15px; padding: 13px;}
+/*fimInput*/
